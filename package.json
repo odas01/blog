@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "hello NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odas01/f8_blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog"
+  ],
+  "author": "lntthanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odas01/f8_blog/issues"
+  },
+  "homepage": "https://github.com/odas01/f8_blog#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
